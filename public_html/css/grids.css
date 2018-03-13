@@ -1,0 +1,32 @@
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+
+.grid-col-12of12 {
+    width: 100%;
+}
+
+.grid-col-8of12 {
+    width: 66.6666666%;
+}
+
+.grid-col-6of12 {
+    width: 54%;
+    position: relative;
+    padding-right: 2%;
+    /* left: 40%; */
+    float: right;
+    right: 4%;
+    display: block;
+}
+
+.grid-col-4of12 {
+    width: 33.3333333%;
+}
+
+.grid-col-3of12 {
+    width: 25%;
+}

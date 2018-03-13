@@ -1,6 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,500,700');
+
 html, body {
     height: 100%;
     width: 100%;
+}
+
+h1 {
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    font-size: 0.9em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'EB Garamond', serif;
+    font-weight: 500;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+}
+
+h3 {
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    text-decoration: underline;
+    padding-top: 1.5em;
 }
 
 .section-header {
@@ -179,6 +205,20 @@ a.btn2:focus {
 
 .content-container {
     width: 100%;
+}
+
+.nav-btn a{
+    color: #afafaf;
+    font-size: 0.8em;
+    letter-spacing: 0.2em;
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+    border-bottom: 1px solid #FFF;
+}
+
+.nav-btn a:hover {
+    color: black;
+    border-bottom: 1px solid #000;
 }
 
 #nav-style nav {

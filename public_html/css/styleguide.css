@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,500,700');
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    font-size: 0.9em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'EB Garamond', serif;
+    font-weight: 500;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+}
+
+h3 {
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    text-decoration: underline;
+    padding-top: 1.5em;
+}
+
+.section-header {
+    padding-top: 12rem;
+    padding-bottom: 1.5rem;
+}
+
+.section-element {
+    padding-bottom: 1.5rem;
+    padding-top: 2rem;
+}
+
+.code-container {
+    border: solid 1px black;
+    background-color: #ffffff;
+}
+
+code {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 0.75rem;
+    display: block;
+}
+
+/*-------------- NAVIGATION ---------------*/
+
+nav {
+    position: fixed;
+    background: white;
+    width: 20%;
+    z-index: 100;
+    padding-bottom: 0.25rem;
+    top: 30%;
+}
+
+nav a {
+    color: #333333;
+    text-decoration: none;
+    transition: color 0.5s ease-in-out;
+    font-weight: 100;
+}
+
+nav a:focus {
+    color: #333333;
+}
+
+nav h2 {
+    padding-top: 1.5rem;
+}
+
+.logo-container {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 10% 0 0 20%;
+    z-index: 9999;
+}
+
+.nav-container {
+    text-align: left;
+    margin: 20% 0 0 20%;
+    padding-top: 3em;
+}
+
+/* Links inside the navbar */
+
+.nav-container a {
+    position: relative;
+    text-align: left;
+    color: #afafaf;
+    font-size: 0.8em;
+    letter-spacing: 0.2em;
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+    border-bottom: 1px solid #FFF;
+}
+
+/* Underline on mouse-over */
+
+.nav-container a:hover {
+    color: black;
+    border-bottom: 1px solid #000;
+}
+
+/*List nav links in a row*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 0;
+}
+
+ul li {
+    list-style-type: none;
+    display: block;
+    padding-bottom: 1rem;
+}
+
+/*-------------- STYLE GUIDE CONTENT ---------------*/
+
+a.btn {
+    color: #FFF;
+    text-decoration: none;
+    background-color: #ADC1B8;
+    transition: 0.5s ease all;
+}
+
+a.btn:hover {
+    color: white;
+}
+
+a.btn:focus {
+    color: white;
+}
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+}
+
+.btn:hover {
+    background-color: #333333;
+    transition: 0.5s ease all;
+}
+
+#button-element a {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+a.btn2 {
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #333;
+    background-color: white;
+    transition: 0.5s ease all;
+}
+
+a.btn2:hover {
+    color: white;
+}
+
+a.btn2:focus {
+    color: white;
+}
+
+.btn2 {
+    display: inline-block;
+    text-align: center;
+    padding: 1rem 1.5rem;
+    position: relative;
+}
+
+.btn2:hover {
+    background-color: #333333;
+    transition: 0.5s ease all;
+}
+
+/*in-text links*/
+
+.in-text-link {
+    text-decoration: none;
+    color: #666666;
+    font-weight: 800;
+    font-size: 1em;
+}
+
+.in-text-link:hover {
+    color: #AAAAAA;
+    transition: color 0.5s ease-in-out;
+}
+
+.content-container {
+    width: 100%;
+}
+
+.nav-btn a{
+    color: #afafaf;
+    font-size: 0.8em;
+    letter-spacing: 0.2em;
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+    border-bottom: 1px solid #FFF;
+}
+
+.nav-btn a:hover {
+    color: black;
+    border-bottom: 1px solid #000;
+}
+
+#nav-style nav {
+    position: relative;
+    width: 100%;
+    background: white;
+    z-index: 0;
+    padding-bottom: 0.25rem;
+    top: 0;
+}
+
+#nav-style nav a {
+    position: relative;
+    width: 100%;
+}
+
+.logo-style-container {
+    position: relative;
+    display: block;
+    float: left;
+    z-index: 0;
+}
+
+.nav-style-container {
+    text-align: left;
+    padding-top: 6em;
+}
+
+/* Links inside the navbar */
+
+.nav-style-container a {
+    position: relative;
+    text-align: left;
+    color: #afafaf;
+    font-size: 0.8em;
+    letter-spacing: 0.2em;
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+    border-bottom: 1px solid #FFF;
+}
+
+/* Underline on mouse-over */
+
+.nav-style-container a:hover {
+    color: black;
+    border-bottom: 1px solid #000;
+}
+
+.structure p {
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.style-col-12of12 {
+    width: 100%;
+    background: #ADC1B8;
+    height: 200px;
+    margin-bottom: 0.5em;
+}
+
+.style-col-6of12 {
+    width: 50%;
+    background: #ADC1B8;
+    height: 200px;
+    margin-bottom: 0.5em;
+}
+
+.style-col-4of12 {
+    width: 33.3%;
+    background: #ADC1B8;
+    height: 200px;
+    margin-bottom: 0.5em;
+}
+
+.style-col-3of12 {
+    width: 25%;
+    background: #ADC1B8;
+    height: 200px;
+    margin-bottom: 0.5em;
+}
+
+/*colour palette*/
+.box p {
+    text-align: center;
+}
+
+.box {
+    width: 24%;
+}
+
+#white-box {
+    height: 200px;
+    background: #FFFFFF;
+    border: solid 0.1px #000;
+    text-align: center;
+}
+
+#blue-box {
+    height: 200px;
+    background: #ADC1B8;
+}
+
+#grey-box {
+    height: 200px;
+    background: #AAAAAA;
+}
+
+#grey-box p {
+    color: white;
+}
+
+#black-box {
+    height: 200px;
+    background: #333333;
+}
+
+#black-box p {
+    color: white;
+}

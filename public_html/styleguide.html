@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styleguide.css">
+    <link rel="stylesheet" href="css/grids.css">
+    <title>Style Guide</title>
+    <!---<link rel="icon" type="image/png" href="img/anecdote2.png?">--->
+</head>
+
+<nav>
+    <div class="logo-container">
+        <a href="styleeguide.html">
+            <img src="img/logo.png" width=90 alt="Logo">
+        </a>
+    </div>
+
+    <div class="nav-container">
+        <ul>
+            <li><a href="#interactive">Interactive Elements</a></li>
+            <li><a href="#textstyling">Text Styling</a></li>
+            <li><a href="#combined">Combined Elements</a></li>
+        </ul>
+    </div>
+</nav>
+
+<body>
+    <div class="content-container">
+        <div id="interactive-elements" class="grid-col-8of12">
+
+            <div class="section-header">
+                <h1>Interactive Elements</h1>
+            </div>
+
+            <section class="section-element">
+                <h2>In-Text Link</h2>
+                <h3>CSS Selector:</h3>
+                <p>.in-text-link</p>
+                <h3>Sample Code:</h3>
+                <div class="code-container">
+                    <div class="code-space">
+                        <code>&lt;a href="#" class="in-text-link">In-Text Link&lt;/a></code>
+                    </div>
+                </div>
+                <h3>Rendered Element:</h3>
+                <a href="#0" class="in-text-link">In-text link</a>
+            </section>
+
+            <section class="section-element">
+                <h2>Navigation Button</h2>
+                <h3>CSS Selector:</h3>
+                <p>nav a</p>
+                <h3>Sample Code:</h3>
+                <div class="code-container">
+                    <div class="code-space">
+                        <code>&lt;a href="#">Navigation&lt;/a></code>
+                    </div>
+                </div>
+                <h3>Rendered Element:</h3>
+                <div class="nav-btn">
+                    <a href="#0">Navigation</a>
+                </div>
+            </section>
+            <section class="section-element">
+                <h2>Submit + Reset Button</h2>
+                <h3>CSS Selector:</h3>
+                <p>nav a</p>
+                <h3>Sample Code:</h3>
+                <div class="code-container">
+                    <div class="code-space">
+                        <code>&lt;a href="#" class="btn">Submit&lt;/a></code>
+                    </div>
+                </div>
+                <h3>Rendered Element:</h3>
+                <div id="button-element">
+                    <a href="#0" class="btn">Submit</a>
+                    <a href="#0" class="btn2">Reset</a>
+                </div>
+            </section>
+            <section class="section-element">
+                <h2>Label</h2>
+                <h3>CSS Selector:</h3>
+                <p>label</p>
+                <h3>Sample Code:</h3>
+                <div class="code-container">
+                    <div class="code-space">
+                        <code>&lt;label>Text Field&lt;/label></code>
+                    </div>
+                </div>
+                <h3>Rendered Element:</h3>
+                <div>
+                    <label>Text Field:</label>
+                </div>
+                <h2>Text Field</h2>
+                <h3>CSS Selector:</h3>
+                <p>input</p>
+                <h3>Sample Code:</h3>
+                <div class="code-container">
+                    <div class="code-space">
+                        <code>&lt;input class="input-text-default" type="text" name="name"></code>
+                    </div>
+                </div>
+                <h3>Rendered Element:</h3>
+                <div>
+                    <input class="input-text-default" type="text" name="name">
+                </div>
+            </section>
+        </div>
+
+
+        <div id="text-styling" class="grid-col-8of12">
+            <div class="section-header">
+                <h1>Text Styling</h1>
+            </div>
+            <section class="section-element">
+                <h2>Three Levels of Headings</h2>
+                <h3>CSS Selector:</h3>
+                <p>h1</p>
+                <h3>Sample Code:</h3>
+                <div class="code-container">
+                    <div class="code-space">
+                        <code>&lt;h1>Header 1&lt;/h1></code>
+                    </div>
+                </div>
+                <h3>Rendered Element:</h3>
+                <h1>Header 1</h1>
+                <h3>CSS Selector:</h3>
+                <p>h2</p>
+                <h3>Sample Code:</h3>
+                <div class="code-container">
+                    <div class="code-space">
+                        <code>&lt;h2>Header 2&lt;/h2></code>
+                    </div>
+                </div>
+                <h3>Rendered Element:</h3>
+                <h2>Header 2</h2>
+                <h3>CSS Selector:</h3>
+                <p>h3</p>
+                <h3>Sample Code:</h3>
+                <div class="code-container">
+                    <div class="code-space">
+                        <code>&lt;h3>Header 1&lt;/h3></code>
+                    </div>
+                </div>
+                <h3>Rendered Element:</h3>
+                <h3>Header 3</h3>
+            </section>
+            <section class="section-element">
+                <h2>Paragraph</h2>
+                <h3>CSS Selector:</h3>
+                <p>p</p>
+                <h3>Sample Code:</h3>
+                <div class="code-container">
+                    <div class="code-space">
+                        <code>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p></code>
+                    </div>
+                </div>
+                <h3>Rendered Element:</h3>
+                <div id="paragraph-style">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </section>
+            <section class="section-element">
+                <h2>Bulleted List</h2>
+                <h3>CSS Selector:</h3>
+                <p>ul, ul li</p>
+                <h3>Sample Code:</h3>
+                <div class="code-container">
+                    <div class="code-space">
+                        <code>&lt;ul></code>
+                    </div>
+                    <div class="code-space">
+                        <code>&lt;li>item&lt;/li></code>
+                    </div>
+                    <div class="code-space">
+                        <code>&lt;li>item&lt;/li></code>
+                    </div>
+                    <div class="code-space">
+                        <code>&lt;li>item&lt;/li></code>
+                    </div>
+                    <div class="code-space">
+                        <code>&lt;ul></code>
+                    </div>
+                </div>
+                <h3>Rendered Element:</h3>
+                <ul>
+                    <li>item</li>
+                    <li>item</li>
+                    <li>item</li>
+                </ul>
+            </section>
+            <section class="section-element">
+                <h2>Numbered List</h2>
+                <h3>CSS Selector:</h3>
+                <p>ol, ol li</p>
+                <h3>Sample Code:</h3>
+                <div class="code-container">
+                    <div class="code-space">
+                        <code>&lt;ol></code>
+                    </div>
+                    <div class="code-space">
+                        <code>&lt;li>item&lt;/li></code>
+                    </div>
+                    <div class="code-space">
+                        <code>&lt;li>item&lt;/li></code>
+                    </div>
+                    <div class="code-space">
+                        <code>&lt;li>item&lt;/li></code>
+                    </div>
+                    <div class="code-space">
+                        <code>&lt;ol></code>
+                    </div>
+                </div>
+                <h3>Rendered Element:</h3>
+                <ol>
+                    <li>item</li>
+                    <li>item</li>
+                    <li>item</li>
+                </ol>
+            </section>
+        </div>
+
+
+        <div id="combined-elements" class="grid-col-8of12">
+            <div class="section-header">
+                <h1>Combined Elements</h1>
+            </div>
+            <section class="section-element">
+                <h2>Main Navigation</h2>
+                <h3>CSS Selector:</h3>
+                <p>nav a</p>
+                <h3>Sample Code:</h3>
+                <div class="code-container">
+                    <div class="code-space">
+                        <code>&lt;div id="nav-style"></code>
+                    </div>
+                    <div class="code-space">
+                        <code>&lt;nav></code>
+                    </div>
+                    <div class="code-space">
+                        <code>&lt;ul></code>
+                    </div>
+                    <div class="code-space">
+                        <code>&lt;div class="nav-container" id="my-Nav"></code>
+                    </div>
+                    <div class="code-space">
+                        <code>&lt;li>&lt;a href="#0">Interactive Elements&lt;/a>&lt;/li></code>
+                    </div>
+                    <div class="code-space">
+                        <code>&lt;li>&lt;a href="#0">Text Styling&lt;/a>&lt;/li></code>
+                    </div>
+                    <div class="code-space">
+                        <code>&lt;li>&lt;a href="#0">Combined Elements&lt;/a>&lt;/li></code>
+                    </div>
+                    <div class="code-space">
+                        <code>&lt;li>&lt;a href="#0">Citations&lt;/a>&lt;/li></code>
+                    </div>
+                    <div class="code-space">
+                        <code>&lt;/ul></code>
+                    </div>
+                    <div class="code-space">
+                        <code>&lt;div></code>
+                    </div>
+                    <div class="code-space">
+                        <code>&lt;/nav></code>
+                    </div>
+                    <div class="code-space">
+                        <code>&lt;div></code>
+                    </div>
+                </div>
+                <h3>Rendered Element:</h3>
+                <div id="nav-style">
+                    <nav>
+                        <div class="logo-style-container">
+                            <a href="styleeguide.html">
+                                <img src="img/logo.png" width=90 alt="Logo">
+                            </a>
+                        </div>
+
+                        <div class="nav-style-container">
+                            <ul>
+                                <li><a href="#interactive">Interactive Elements</a></li>
+                                <li><a href="#textstyling">Text Styling</a></li>
+                                <li><a href="#combined">Combined Elements</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </section>
+
+            <section class="section-element">
+                <h2>Grid Structure</h2>
+                <h3>CSS Selector:</h3>
+                <p>.grid-container, .grid-col-1of5, .grid-col-2of5, .grid-col-3of5, .grid-col-4of5</p>
+                <h3>Sample Code:</h3>
+                <div class="code-container">
+                    <div class="code-space">
+                        <code>&lt;div class="grid-container"></code>
+                    </div>
+                    <div class="code-space">
+                        <code>&lt;div class="grid-col-12of12"></code>
+                    </div>
+                    <div class="code-space">
+                        <code>&lt;/div></code>
+                    </div>
+                    <div class="code-space">
+                        <code>&lt;div class="grid-col-6of12"></code>
+                    </div>
+                    <div class="code-space">
+                        <code>&lt;/div></code>
+                    </div>
+                    <div class="code-space">
+                        <code>&lt;/div></code>
+                    </div>
+                    <div class="code-space">
+                        <code>&lt;div class="grid-container"></code>
+                    </div>
+                    <div class="code-space">
+                        <code>&lt;div class="grid-col-4of12"></code>
+                    </div>
+                    <div class="code-space">
+                        <code>&lt;/div></code>
+                    </div>
+                    <div class="code-space">
+                        <code>&lt;div class="grid-col-3of12"></code>
+                    </div>
+                    <div class="code-space">
+                        <code>&lt;/div></code>
+                    </div>
+                    <div class="code-space">
+                        <code>&lt;/div></code>
+                    </div>
+                </div>
+                <h3>Rendered Element:</h3>
+                <div class="grid-container structure">
+                    <div class="style-col-12of12">
+                        <p>100%</p>
+                    </div>
+                </div>
+                <div class="grid-container structure">
+                    <div class="style-col-6of12">
+                        <p>50%</p>
+                    </div>
+                </div>
+                <div class="grid-container structure">
+                    <div class="style-col-4of12">
+                        <p>33%</p>
+                    </div>
+                </div>
+                <div class="grid-container structure">
+                    <div class="style-col-3of12">
+                        <p>25%</p>
+                    </div>
+                </div>
+            </section>
+            <section class="section-element">
+                <h2>Colour Swatch</h2>
+                <h3>CSS Selector:</h3>
+                <p>#yellow-box</p>
+                <h3>Sample Code:</h3>
+                <div class="code-container">
+                    <div class="code-space">
+                        <code>&lt;div class="box" id="blue-box"></code>
+                    </div>
+                    <div class="code-space">
+                        <code>&lt;p>#FFFF66&lt;/p></code>
+                    </div>
+                    <div class="code-space">
+                        <code>&lt;p>Used as an accent colour.&lt;/p></code>
+                    </div>
+                    <div class="code-space">
+                        <code>&lt;/div></code>
+                    </div>
+                </div>
+                <h3>Rendered Element:</h3>
+                <div class="grid-container">
+                    <div class="box" id="white-box">
+                        <p>#FFFFFF</p>
+                        <p>Used for text on darker backgrounds.</p>
+                    </div>
+                    <div class="box" id="blue-box">
+                        <p>#FFFF66</p>
+                        <p>Used as an accent colour.</p>
+                    </div>
+                    <div class="box" id="grey-box">
+                        <p>#AAAAAA</p>
+                        <p>Used for links and navigation text.</p>
+                    </div>
+                    <div class="box" id="black-box">
+                        <p>#333333</p>
+                        <p>Used for text on white background.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>

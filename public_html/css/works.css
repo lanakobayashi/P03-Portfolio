@@ -7,26 +7,34 @@ html, body {
 
 h1 {
     font-family: 'EB Garamond', serif;
-    font-weight: 700;
-    font-size: 0.9em;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.2em;
+    letter-spacing: 0.06em;
 }
 
 h2 {
     font-family: 'EB Garamond', serif;
-    font-weight: 500;
-    font-size: 1em;
-    letter-spacing: 0.1em;
+    font-weight: 400;
+    font-size: 0.8em;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 h3 {
     font-family: 'EB Garamond', serif;
     font-weight: 400;
-    font-size: 1.2em;
-    letter-spacing: 0.1em;
-    text-decoration: underline;
+    font-size: 0.8em;
+    letter-spacing: 0.06em;
+
+    font-style: italic;
     padding-top: 1.5em;
+}
+
+p {
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    letter-spacing: 0.06em;
 }
 
 .section-header {
@@ -37,20 +45,6 @@ h3 {
 .section-element {
     padding-bottom: 1.5rem;
     padding-top: 2rem;
-}
-
-.code-container {
-    border: solid 1px black;
-    background-color: #ffffff;
-}
-
-code {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    font-size: 0.75rem;
-    display: block;
 }
 
 /*-------------- NAVIGATION ---------------*/
@@ -100,7 +94,7 @@ nav h2 {
     text-align: left;
     color: #afafaf;
     font-size: 0.8em;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.08em;
     text-decoration: none;
     transition: all 0.3s ease-in;
     border-bottom: 1px solid #FFF;
@@ -147,7 +141,7 @@ a.btn:focus {
 .btn {
     display: inline-block;
     text-align: center;
-    padding: 1rem;
+    padding: 0.5rem;
     position: relative;
 }
 
@@ -157,8 +151,8 @@ a.btn:focus {
 }
 
 #button-element a {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 a.btn2 {
@@ -180,7 +174,7 @@ a.btn2:focus {
 .btn2 {
     display: inline-block;
     text-align: center;
-    padding: 1rem 1.5rem;
+    padding: 0.5rem;
     position: relative;
 }
 
@@ -193,13 +187,13 @@ a.btn2:focus {
 
 .in-text-link {
     text-decoration: none;
-    color: #666666;
+    color: #AAAAAA;
     font-weight: 800;
-    font-size: 1em;
+    font-size: 0.8em;
 }
 
 .in-text-link:hover {
-    color: #AAAAAA;
+    color: #ADC1B8;
     transition: color 0.5s ease-in-out;
 }
 
@@ -207,10 +201,35 @@ a.btn2:focus {
     width: 100%;
 }
 
+label {
+    font-size: 0.8em;
+    color: #AAAAAA;
+}
+
+input {
+    padding: 0.5rem;
+    border: 1px solid #afafaf;
+    border-radius: 3px;
+}
+
+input:focus {
+    outline: none;
+    border-color:#ADC1B8;
+    transition: all 0.3s ease-in;
+}
+
+#ul-style  { /*ul li*/
+    font-size: 0.8em;
+}
+
+ol li {
+    font-size: 0.8em;
+}
+
 .nav-btn a{
     color: #afafaf;
     font-size: 0.8em;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.08em;
     text-decoration: none;
     transition: all 0.3s ease-in;
     border-bottom: 1px solid #FFF;
@@ -221,122 +240,9 @@ a.btn2:focus {
     border-bottom: 1px solid #000;
 }
 
-#nav-style nav {
-    position: relative;
-    width: 100%;
-    background: white;
-    z-index: 0;
-    padding-bottom: 0.25rem;
-    top: 0;
+/*--------------WORKS---------------*/
+
+.works-image {
+    width: 0%;
 }
 
-#nav-style nav a {
-    position: relative;
-    width: 100%;
-}
-
-.logo-style-container {
-    position: relative;
-    display: block;
-    float: left;
-    z-index: 0;
-}
-
-.nav-style-container {
-    text-align: left;
-    padding-top: 6em;
-}
-
-/* Links inside the navbar */
-
-.nav-style-container a {
-    position: relative;
-    text-align: left;
-    color: #afafaf;
-    font-size: 0.8em;
-    letter-spacing: 0.2em;
-    text-decoration: none;
-    transition: all 0.3s ease-in;
-    border-bottom: 1px solid #FFF;
-}
-
-/* Underline on mouse-over */
-
-.nav-style-container a:hover {
-    color: black;
-    border-bottom: 1px solid #000;
-}
-
-.structure p {
-    font-size: 1rem;
-    font-weight: 500;
-    text-align: center;
-    padding-top: 5rem;
-}
-
-.style-col-12of12 {
-    width: 100%;
-    background: #ADC1B8;
-    height: 200px;
-    margin-bottom: 0.5em;
-}
-
-.style-col-6of12 {
-    width: 50%;
-    background: #ADC1B8;
-    height: 200px;
-    margin-bottom: 0.5em;
-}
-
-.style-col-4of12 {
-    width: 33.3%;
-    background: #ADC1B8;
-    height: 200px;
-    margin-bottom: 0.5em;
-}
-
-.style-col-3of12 {
-    width: 25%;
-    background: #ADC1B8;
-    height: 200px;
-    margin-bottom: 0.5em;
-}
-
-/*colour palette*/
-.box p {
-    text-align: center;
-}
-
-.box {
-    width: 24%;
-}
-
-#white-box {
-    height: 200px;
-    background: #FFFFFF;
-    border: solid 0.1px #000;
-    text-align: center;
-}
-
-#blue-box {
-    height: 200px;
-    background: #ADC1B8;
-}
-
-#grey-box {
-    height: 200px;
-    background: #AAAAAA;
-}
-
-#grey-box p {
-    color: white;
-}
-
-#black-box {
-    height: 200px;
-    background: #333333;
-}
-
-#black-box p {
-    color: white;
-}

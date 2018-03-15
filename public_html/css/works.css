@@ -27,7 +27,7 @@ h3 {
     font-size: 0.8em;
     letter-spacing: 0.06em;
     font-style: italic;
-    padding-top: 1.5em;
+    padding-top: 1em;
 }
 
 p {
@@ -35,7 +35,7 @@ p {
     font-weight: 400;
     font-size: 0.8em;
     letter-spacing: 0.06em;
-    width: 60%;
+    width: 50%;
 }
 
 .section-header {
@@ -46,6 +46,7 @@ p {
 .section-element {
     padding-bottom: 1.5rem;
     padding-top: 2rem;
+    border-bottom: 1px solid black;
 }
 
 /*-------------- NAVIGATION ---------------*/

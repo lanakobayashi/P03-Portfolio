@@ -29,7 +29,7 @@
 
 <body>
     <div class="content-container">
-        <div id="interactive-elements" class="grid-col-8of12">
+        <div id="interactive" class="grid-col-8of12">
 
             <div class="section-header">
                 <h1>Interactive Elements</h1>
@@ -46,13 +46,13 @@
                     </div>
                 </div>
                 <h3>Rendered Element:</h3>
-                <a href="#0" class="in-text-link">In-text link</a>
+                <a href="#0" class="in-text-link">in-text link</a>
             </section>
 
             <section class="section-element">
                 <h2>Navigation Button</h2>
                 <h3>CSS Selector:</h3>
-                <p>nav a</p>
+                <p>nav a, .nav-btn</p>
                 <h3>Sample Code:</h3>
                 <div class="code-container">
                     <div class="code-space">
@@ -67,7 +67,7 @@
             <section class="section-element">
                 <h2>Submit + Reset Button</h2>
                 <h3>CSS Selector:</h3>
-                <p>nav a</p>
+                <p>.btn</p>
                 <h3>Sample Code:</h3>
                 <div class="code-container">
                     <div class="code-space">
@@ -87,13 +87,16 @@
                 <h3>Sample Code:</h3>
                 <div class="code-container">
                     <div class="code-space">
-                        <code>&lt;label>Text Field&lt;/label></code>
+                        <code>&lt;label>Name: &lt;/label></code>
                     </div>
                 </div>
                 <h3>Rendered Element:</h3>
                 <div>
-                    <label>Text Field:</label>
+                    <label>Name:</label>
                 </div>
+            </section>
+            
+            <section class="section-element">
                 <h2>Text Field</h2>
                 <h3>CSS Selector:</h3>
                 <p>input</p>
@@ -111,7 +114,7 @@
         </div>
 
 
-        <div id="text-styling" class="grid-col-8of12">
+        <div id="textstyling" class="grid-col-8of12">
             <div class="section-header">
                 <h1>Text Styling</h1>
             </div>
@@ -166,7 +169,7 @@
             <section class="section-element">
                 <h2>Bulleted List</h2>
                 <h3>CSS Selector:</h3>
-                <p>ul, ul li</p>
+                <p>ul, ul li, #ul-style</p>
                 <h3>Sample Code:</h3>
                 <div class="code-container">
                     <div class="code-space">
@@ -186,7 +189,7 @@
                     </div>
                 </div>
                 <h3>Rendered Element:</h3>
-                <ul>
+                <ul id="ul-style">
                     <li>item</li>
                     <li>item</li>
                     <li>item</li>
@@ -224,14 +227,14 @@
         </div>
 
 
-        <div id="combined-elements" class="grid-col-8of12">
+        <div id="combined" class="grid-col-8of12">
             <div class="section-header">
                 <h1>Combined Elements</h1>
             </div>
             <section class="section-element">
                 <h2>Main Navigation</h2>
                 <h3>CSS Selector:</h3>
-                <p>nav a</p>
+                <p>nav a, #nav-container</p>
                 <h3>Sample Code:</h3>
                 <div class="code-container">
                     <div class="code-space">
@@ -244,7 +247,7 @@
                         <code>&lt;ul></code>
                     </div>
                     <div class="code-space">
-                        <code>&lt;div class="nav-container" id="my-Nav"></code>
+                        <code>&lt;div class="nav-container"></code>
                     </div>
                     <div class="code-space">
                         <code>&lt;li>&lt;a href="#0">Interactive Elements&lt;/a>&lt;/li></code>
@@ -282,9 +285,9 @@
 
                         <div class="nav-style-container">
                             <ul>
-                                <li><a href="#interactive">Interactive Elements</a></li>
-                                <li><a href="#textstyling">Text Styling</a></li>
-                                <li><a href="#combined">Combined Elements</a></li>
+                                <li><a href="#0">Interactive Elements</a></li>
+                                <li><a href="#0">Text Styling</a></li>
+                                <li><a href="#0">Combined Elements</a></li>
                             </ul>
                         </div>
                     </nav>
@@ -294,7 +297,7 @@
             <section class="section-element">
                 <h2>Grid Structure</h2>
                 <h3>CSS Selector:</h3>
-                <p>.grid-container, .grid-col-1of5, .grid-col-2of5, .grid-col-3of5, .grid-col-4of5</p>
+                <p>.grid-container, .grid-col-12of12, .grid-col-6of12, .grid-col-4of12, .grid-col-3of12</p>
                 <h3>Sample Code:</h3>
                 <div class="code-container">
                     <div class="code-space">
@@ -359,7 +362,7 @@
             <section class="section-element">
                 <h2>Colour Swatch</h2>
                 <h3>CSS Selector:</h3>
-                <p>#yellow-box</p>
+                <p>#blue-box</p>
                 <h3>Sample Code:</h3>
                 <div class="code-container">
                     <div class="code-space">

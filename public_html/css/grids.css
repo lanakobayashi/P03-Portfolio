@@ -11,6 +11,12 @@
 
 .grid-col-8of12 {
     width: 66.6666666%;
+    position: relative;
+    padding-right: 2%;
+    /* left: 40%; */
+    float: right;
+    right: 4%;
+    display: block;
 }
 
 .grid-col-6of12 {

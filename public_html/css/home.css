@@ -1,15 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,500,700');
+
 html, body {
     height: 100%;
     width: 100%;
 }
 
+h1 {
+    font-family: 'EB Garamond', serif;
+    font-weight: 500;
+    font-size: 1.2em;
+    letter-spacing: 0.06em;
+}
+
+h2 {
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding-top: 5em;
+}
+
+h3 {
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    letter-spacing: 0.06em;
+    font-style: italic;
+    padding-top: 1em;
+}
+
+p {
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    letter-spacing: 0.06em;
+    width: 50%;
+}
+
+.section-header {
+    padding-top: 12rem;
+    padding-bottom: 1.5rem;
+}
+
+.section-element {
+    padding-bottom: 1.5rem;
+    padding-top: 2rem;
+    border-bottom: 1px solid black;
+}
+
 nav {
     position: fixed;
-    background: white;
+    padding-top: 1em;
+    background: none;
     width: 100%;
-    z-index: 100;
+    z-index: 9999;
     padding-bottom: 0.25rem;
-    top: 30%;
+    top: 2%;
 }
 
 nav a {
@@ -28,16 +75,16 @@ nav h2 {
 }
 
 .logo-container {
-    padding-top: 2rem;
-    padding: 2em;
+    position: fixed;
+    padding-left: 2em;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    text-align: left;
     border-bottom: 1px black;
 }
 
 .nav-container {
-    text-align: center;
+    text-align: right;
 }
 
 /* Links inside the navbar */
@@ -53,7 +100,7 @@ nav h2 {
     letter-spacing: 0.2em;
     text-decoration: none;
     transition: all 0.3s ease-in;
-    border-bottom: 1px solid #FFF;
+    border-bottom: none;
 }
 
 /* Underline on mouse-over */
@@ -76,3 +123,190 @@ ul li {
     padding: 0 6px;
     display: inline-block;
 }
+
+/*header*/
+.name-header h1 {
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    font-size: 1em;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}
+
+.name-header {
+    height: 100vh;
+}
+
+#name {
+    position: relative;
+    text-align: center;
+    top: 50vh;  
+}
+
+#description {
+    position: relative;
+    text-align: center;
+    top: 50vh;
+}
+
+/*-------------- STYLE GUIDE CONTENT ---------------*/
+
+a.btn {
+    color: #FFF;
+    text-decoration: none;
+    background-color: #ADC1B8;
+    transition: 0.5s ease all;
+}
+
+a.btn:hover {
+    color: white;
+}
+
+a.btn:focus {
+    color: white;
+}
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 0.5rem;
+    position: relative;
+}
+
+.btn:hover {
+    background-color: #333333;
+    transition: 0.5s ease all;
+}
+
+#button-element a {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+a.btn2 {
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #333;
+    background-color: white;
+    transition: 0.5s ease all;
+}
+
+a.btn2:hover {
+    color: white;
+}
+
+a.btn2:focus {
+    color: white;
+}
+
+.btn2 {
+    display: inline-block;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 0.8em;
+    position: relative;
+}
+
+.btn2:hover {
+    background-color: #333333;
+    transition: 0.5s ease all;
+    padding: 0.5rem;
+    font-style: italic;
+}
+
+/*in-text links*/
+
+.in-text-link {
+    text-decoration: none;
+    color: #AAAAAA;
+    font-weight: 800;
+    font-size: 0.8em;
+}
+
+.in-text-link:hover {
+    color: #ADC1B8;
+    transition: color 0.5s ease-in-out;
+}
+
+.content-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+label {
+    font-size: 0.8em;
+    color: #AAAAAA;
+}
+
+input {
+    padding: 0.5rem;
+    border: 1px solid #afafaf;
+    border-radius: 3px;
+}
+
+input:focus {
+    outline: none;
+    border-color:#ADC1B8;
+    transition: all 0.3s ease-in;
+}
+
+#ul-style  { /*ul li*/
+    font-size: 0.8em;
+}
+
+ol li {
+    font-size: 0.8em;
+}
+
+.nav-btn a{
+    color: #afafaf;
+    font-size: 0.8em;
+    letter-spacing: 0.08em;
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+    border-bottom: 1px solid #FFF;
+}
+
+.nav-btn a:hover {
+    color: black;
+    border-bottom: 1px solid #000;
+}
+
+/*--------------WORKS---------------*/
+
+.works-image {
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    width: 50%;
+    padding-bottom: 3em;
+}
+
+.works-image img{
+    position: relative;
+    width: 100%;
+}
+
+.works-element {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20em;
+}
+
+.works-element h1, h3, p {
+    text-align: center;
+}
+
+footer {
+    display: block;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+
+
+

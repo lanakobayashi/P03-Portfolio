@@ -3,6 +3,7 @@
 html, body {
     height: 100%;
     width: 100%;
+    background: #f4f4f4;
 }
 
 h1 {
@@ -107,7 +108,6 @@ nav h2 {
 
 .nav-container a:hover {
     color: black;
-    border-bottom: 1px solid #000;
 }
 
 /*List nav links in a row*/
@@ -148,7 +148,6 @@ ul li {
     text-align: center;
     top: 47vh;
 }
-
 /*-------------- STYLE GUIDE CONTENT ---------------*/
 
 a.btn {
@@ -307,6 +306,9 @@ footer {
     text-align: center;
 }
 
+.back-image img {
+    width: 100%;
+}
 
 
 

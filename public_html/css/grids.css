@@ -43,6 +43,24 @@
     }
     
     .works-element {
-        width: 100%;
+        width: 80%;
+        padding-top: 30%;
+        padding-left: 3%;
+        padding-right: 3%;
     }
+    
+    .project-analysis p, h4, h3, h2 {
+        width: 90%;
+        padding: 2%;
+    }
+    
+    .btn2, .btn2:hover {
+        margin: 2%;
+        width: 30%;
+        padding: 1em;
+    }
+    
+    .section-element p {
+        width: 100%;
+    } 
 }

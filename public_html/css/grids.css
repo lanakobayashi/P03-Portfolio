@@ -36,3 +36,9 @@
 .grid-col-3of12 {
     width: 25%;
 }
+
+@media (max-width: 64em) {
+    .works-image {
+        width: 100%;
+    }
+}

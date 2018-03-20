@@ -125,12 +125,14 @@ ul li {
 }
 
 /*header*/
+
 .name-header h1 {
     font-family: 'EB Garamond', serif;
+    max-width: 100%;
     font-weight: 600;
-    font-size: 1em;
+    font-size: 5em;
     letter-spacing: 0.3em;
-    text-transform: uppercase;
+    text-transform: lowercase;
 }
 
 .name-header {
@@ -140,13 +142,13 @@ ul li {
 #name {
     position: relative;
     text-align: center;
-    top: 47vh;  
+    top: 35vh;  
 }
 
 #description {
     position: relative;
     text-align: center;
-    top: 47vh;
+    top: 37vh;
 }
 /*-------------- STYLE GUIDE CONTENT ---------------*/
 

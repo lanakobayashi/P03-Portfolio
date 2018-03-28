@@ -3,6 +3,7 @@
 html, body {
     height: 100%;
     width: 100%;
+    background: #f4f4f4;
 }
 
 h1 {
@@ -65,7 +66,7 @@ code {
 
 nav {
     position: fixed;
-    background: white;
+    background: none;
     width: 20%;
     z-index: 100;
     padding-bottom: 0.25rem;
@@ -257,7 +258,7 @@ ol li {
 #nav-style nav {
     position: relative;
     width: 100%;
-    background: white;
+    background: none;
     z-index: 0;
     padding-bottom: 0.25rem;
     top: 0;

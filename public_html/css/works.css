@@ -16,7 +16,7 @@ h1 {
 h2 {
     font-family: 'EB Garamond', serif;
     font-weight: 400;
-    font-size: 0.8em;
+    font-size: 0.9em;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     padding-top: 5em;
@@ -25,7 +25,7 @@ h2 {
 h3 {
     font-family: 'EB Garamond', serif;
     font-weight: 400;
-    font-size: 0.8em;
+    font-size: 0.9em;
     letter-spacing: 0.06em;
     font-style: italic;
     padding-top: 1em;
@@ -34,7 +34,7 @@ h3 {
 h4 {
     font-family: 'EB Garamond', serif;
     font-weight: 400;
-    font-size: 0.8em;
+    font-size: 0.9em;
     letter-spacing: 0.06em;
     padding-top: 1em;
     text-decoration: underline;
@@ -44,9 +44,10 @@ h4 {
 p {
     font-family: 'EB Garamond', serif;
     font-weight: 400;
-    font-size: 0.8em;
+    font-size: 0.9em;
     letter-spacing: 0.06em;
-    width: 50%;
+    line-height: 1.8em;
+    width: 100%;
 }
 
 .section-header {
@@ -264,7 +265,7 @@ ol li {
 /*--------------WORKS---------------*/
 
 .works-element {
-    width: 60%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 20em;
